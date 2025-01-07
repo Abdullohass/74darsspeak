@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: chartreuse;
+}
+.ota{
+    width: 500px;
+    background-color: rgb(13, 0, 255);
+    height: 370px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.ota h1{
+    color: white;
+    padding: 10px;
+}
+select{
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: green;
+}
+button:active {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+  }
+textarea{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    
